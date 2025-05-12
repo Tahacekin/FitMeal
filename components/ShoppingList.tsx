@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { ShoppingCart, Search, X, DollarSign, ArrowDownToLine, Check, ExternalLink } from 'lucide-react';
 import { formatCurrency } from '@/lib/utils';
 import useStore from '@/store/useStore';
-import { ShoppingItem } from '@/lib/types';
+import type { ShoppingItem } from '@/lib/types';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
